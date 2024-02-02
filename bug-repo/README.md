@@ -1,5 +1,12 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
+## Mongoose Repro Instructions
+
+1. npm install
+2. npm run dev
+3. Use postman or some similar service to hit the following endpoint: http://localhost:3000/api/hello
+4. In your terminal you should see a console log indicating whether or not it was successful.
+
 ## Getting Started
 
 First, run the development server:
@@ -39,12 +46,3 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
 
-
-## From Daniel
-
-Ignoring all that garbage at the top.
-
-1. npm install
-2. npm run dev
-3. Use postman or some similar service to hit the following endpoint: http://localhost:3000/api/hello
-4. In your terminal you should see a console log indicating whether or not it was successful.
